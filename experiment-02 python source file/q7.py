@@ -1,14 +1,3 @@
-#wap to print th egrade sheet of studnet for the given range of cgpa. scan five marks subjects and calculate the percentage .abs
-#cgpa=percentage/10
-"""cgpa range
-    0-3.4>F
-    3.5-5.0 >C+
-    5.1-6>B
-    6.1-7>B+
-    7.1-8>a
-    8.1-9>A+
-    9.1-10>o
-"""
 def calculate_grade(percentage):
     cgpa = percentage / 10
     if 0 <= cgpa <= 3.4:
