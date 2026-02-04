@@ -2,36 +2,24 @@
 day=int(input("Enter day: "))
 month=int(input("Enter month: "))
 year=int(input("Enter year: "))
-if month in (1,3,5,7,8,10):
-    if day<31:
-        day+=1
-    else:
-        day=1
-        month+=1
-elif month in (4,6,9,11):
-    if day<30:
-        day+=1
-    else:
-        day=1
-        month+=1
-elif month==2:
-    if (year%4==0 and year%100!=0) or (year%400==0):
-        if day<29:
-            day+=1
-        else:
-            day=1
-            month+=1
-    else:
-        if day<28:
-            day+=1
-        else:
-            day=1
-            month+=1
-else:
-    if day<31:
-        day+=1
-    else:
-        day=1
-        month=1
-        year+=1
-print("Next date is:",day,"/",month,"/",year)
+#function to check leap year
+def is_leap_year(y):
+    if (y % 4 == 0 and y % 100 != 0) or (y % 400 == 0):
+        return True
+    return False
+def next_date(d, m, y):
+    month_days = [31, 28 + is_leap_year(y), 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
+    
+    d += 1  
+    
+    if d > month_days[m - 1]:  
+        d = 1
+        m += 1  
+        
+        if m > 12:  
+            m = 1
+            y += 1  
+         
+    return d, m, y
+next_day, next_month, next_year = next_date(day, month, year)
+print(f"The next date is: {next_day}/{next_month}/{next_year}")
