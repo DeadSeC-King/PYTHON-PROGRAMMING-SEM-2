@@ -1,3 +1,4 @@
+#wap to create a dataframe using dictionary
 import pandas as pd
 data={"A":[1,2,3,4,5],
       "B":[5,4,3,2,1],}
