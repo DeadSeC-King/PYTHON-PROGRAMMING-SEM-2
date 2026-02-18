@@ -1,0 +1,105 @@
+[Running] python -u "c:\Users\Win11\OneDrive - UPES\2nd semester\python\REP\PYTHON-PROGRAMMING-SEM-2\aiml\q28.py"
+No outliers found in column 'PassengerId'.
+No outliers found in column 'Survived'.
+No outliers found in column 'Pclass'.
+Outliers found in column 'Age':
+     PassengerId  Survived  Pclass  ...     Fare Cabin  Embarked
+33            34         0       2  ...  10.5000   NaN         S
+54            55         0       1  ...  61.9792   B30         C
+96            97         0       1  ...  34.6542    A5         C
+116          117         0       3  ...   7.7500   NaN         Q
+280          281         0       3  ...   7.7500   NaN         Q
+456          457         0       1  ...  26.5500   E38         S
+493          494         0       1  ...  49.5042   NaN         C
+630          631         1       1  ...  30.0000   A23         S
+672          673         0       2  ...  10.5000   NaN         S
+745          746         0       1  ...  71.0000   B22         S
+851          852         0       3  ...   7.7750   NaN         S
+
+[11 rows x 12 columns]
+Outliers found in column 'SibSp':
+     PassengerId  Survived  Pclass  ...      Fare        Cabin  Embarked
+7              8         0       3  ...   21.0750          NaN         S
+16            17         0       3  ...   29.1250          NaN         Q
+24            25         0       3  ...   21.0750          NaN         S
+27            28         0       1  ...  263.0000  C23 C25 C27         S
+50            51         0       3  ...   39.6875          NaN         S
+59            60         0       3  ...   46.9000          NaN         S
+63            64         0       3  ...   27.9000          NaN         S
+68            69         1       3  ...    7.9250          NaN         S
+71            72         0       3  ...   46.9000          NaN         S
+85            86         1       3  ...   15.8500          NaN         S
+88            89         1       1  ...  263.0000  C23 C25 C27         S
+119          120         0       3  ...   31.2750          NaN         S
+159          160         0       3  ...   69.5500          NaN         S
+164          165         0       3  ...   39.6875          NaN         S
+171          172         0       3  ...   29.1250          NaN         Q
+176          177         0       3  ...   25.4667          NaN         S
+180          181         0       3  ...   69.5500          NaN         S
+182          183         0       3  ...   31.3875          NaN         S
+201          202         0       3  ...   69.5500          NaN         S
+229          230         0       3  ...   25.4667          NaN         S
+233          234         1       3  ...   31.3875          NaN         S
+261          262         1       3  ...   31.3875          NaN         S
+266          267         0       3  ...   39.6875          NaN         S
+278          279         0       3  ...   29.1250          NaN         Q
+324          325         0       3  ...   69.5500          NaN         S
+341          342         1       1  ...  263.0000  C23 C25 C27         S
+374          375         0       3  ...   21.0750          NaN         S
+386          387         0       3  ...   46.9000          NaN         S
+409          410         0       3  ...   25.4667          NaN         S
+480          481         0       3  ...   46.9000          NaN         S
+485          486         0       3  ...   25.4667          NaN         S
+541          542         0       3  ...   31.2750          NaN         S
+542          543         0       3  ...   31.2750          NaN         S
+634          635         0       3  ...   27.9000          NaN         S
+642          643         0       3  ...   27.9000          NaN         S
+683          684         0       3  ...   46.9000          NaN         S
+686          687         0       3  ...   39.6875          NaN         S
+726          727         1       2  ...   21.0000          NaN         S
+787          788         0       3  ...   29.1250          NaN         Q
+792          793         0       3  ...   69.5500          NaN         S
+813          814         0       3  ...   31.2750          NaN         S
+819          820         0       3  ...   27.9000          NaN         S
+824          825         0       3  ...   39.6875          NaN         S
+846          847         0       3  ...   69.5500          NaN         S
+850          851         0       3  ...   31.2750          NaN         S
+863          864         0       3  ...   69.5500          NaN         S
+
+[46 rows x 12 columns]
+Outliers found in column 'Parch':
+     PassengerId  Survived  Pclass  ...     Fare Cabin  Embarked
+7              8         0       3  ...  21.0750   NaN         S
+8              9         1       3  ...  11.1333   NaN         S
+10            11         1       3  ...  16.7000    G6         S
+13            14         0       3  ...  31.2750   NaN         S
+16            17         0       3  ...  29.1250   NaN         Q
+..           ...       ...     ...  ...      ...   ...       ...
+871          872         1       1  ...  52.5542   D35         S
+879          880         1       1  ...  83.1583   C50         C
+880          881         1       2  ...  26.0000   NaN         S
+885          886         0       3  ...  29.1250   NaN         Q
+888          889         0       3  ...  23.4500   NaN         S
+
+[213 rows x 12 columns]
+Outliers found in column 'Fare':
+     PassengerId  Survived  Pclass  ...      Fare        Cabin  Embarked
+1              2         1       1  ...   71.2833          C85         C
+27            28         0       1  ...  263.0000  C23 C25 C27         S
+31            32         1       1  ...  146.5208          B78         C
+34            35         0       1  ...   82.1708          NaN         C
+52            53         1       1  ...   76.7292          D33         C
+..           ...       ...     ...  ...       ...          ...       ...
+846          847         0       3  ...   69.5500          NaN         S
+849          850         1       1  ...   89.1042          C92         C
+856          857         1       1  ...  164.8667          NaN         S
+863          864         0       3  ...   69.5500          NaN         S
+879          880         1       1  ...   83.1583          C50         C
+
+[116 rows x 12 columns]
+-26.724
+65.6344
+23.0896
+
+[Done] exited with code=0 in 1.991 seconds
+
