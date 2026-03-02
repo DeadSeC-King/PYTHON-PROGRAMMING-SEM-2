@@ -1,11 +1,16 @@
-
-# 3. WAP to input a list of scores for N students. Find the runner-up score.
-
 n = int(input("Enter number of students: "))
 scores = list(map(int, input("Enter scores: ").split()))
 
-unique_scores = list(set(scores))
-unique_scores.sort(reverse=True)
+first = second = float('-inf')
 
-runner_up = unique_scores[1]
-print("Runner-up score:", runner_up)
+for s in scores:
+    if s > first:
+        second = first
+        first = s
+    elif s > second and s != first:
+        second = s
+
+if second == float('-inf'):
+    print("No runner-up score exists")
+else:
+    print("Runner-up score:", second)
