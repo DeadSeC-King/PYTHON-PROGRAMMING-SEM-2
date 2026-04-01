@@ -9,7 +9,7 @@ class FileNotFoundCustomError(Exception):
     pass
 
 try:
-    filename = "data.txt"
+    filename = "name.txt"
     
     try:
         with open(filename, "r") as f:

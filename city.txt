@@ -1,0 +1,10 @@
+Delhi 190 1484
+Mumbai 204 603
+Bangalore 124 709
+Chennai 110 426
+Kolkata 149 205
+Pune 74 516
+Hyderabad 101 650
+Jaipur 39 467
+Lucknow 34 349
+Chandigarh 11 114

@@ -2,7 +2,7 @@
 # Q6. Program execution counter
 # =========================
 
-filename = "counter.txt"
+filename = "numbers.txt"
 
 try:
     with open(filename, "r") as f:
