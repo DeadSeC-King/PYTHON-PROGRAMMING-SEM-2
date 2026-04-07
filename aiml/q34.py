@@ -75,11 +75,3 @@ for c in range(K):
     print(f"  Avg Parking   : {subset['parking'].mean():>8.1f}")
     print()
 
-# ── 5. Elbow Method — WCSS for k = 1 to 8 ────────────────────────────────────
-print("── Elbow Method (WCSS per k) ──────────────────────────────────────────")
-print(f"{'k':>4}  {'WCSS':>12}")
-print("-" * 20)
-for k in range(1, 9):
-    _, _, inertia_k = kmeans(X_norm, k=k)
-    bar = "█" * int(inertia_k / 60)
-    print(f"{k:>4}  {inertia_k:>12.1f}  {bar}")
