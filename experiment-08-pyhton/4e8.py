@@ -37,7 +37,6 @@ label_task=tk.Label(root,text="Task:")
 label_task.pack()
 entry_task=tk.Entry(root)
 entry_task.pack()
-
 button_add=tk.Button(root,text="Add Task",command=add_task)
 button_add.pack()
 listbox_tasks=tk.Listbox(root)
